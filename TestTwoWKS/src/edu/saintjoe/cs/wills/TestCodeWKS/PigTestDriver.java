@@ -5,19 +5,18 @@ public class PigTestDriver {
 	public static void main(String[] args) {
 		
 				Pigs one = new Pigs ();
-				one.size = 70;
+				one.weight = 55;
 				Pigs two = new Pigs ();
-				two.size = 8;
+				two.weight = 8;
 				
 				
-				one.bark();
-				two.bark();
+				one.Qink();
+				two.Qink();
 			
 
 			}
 
-		}
+		
 
 	}
 
-}

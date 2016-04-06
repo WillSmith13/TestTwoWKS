@@ -26,7 +26,7 @@ public class Pigs {
 	        pig2.Qink();
 	        pig2.setName("Bob");
 	        pig2.Qink();
-	        pig1.setWeight(100);
+	        pig1.setWeight(99);
 	        pig2.Qink();
 	        pig1.Qink();
 	        
@@ -36,20 +36,34 @@ public class Pigs {
 	        myPigs[1] = new Pigs();
 	        myPigs[2] = pig1;
 	        
-	        myPigs[0].setName("Jim");
-	        myPigs[0].setWeight(42);
-	        myPigs[1].setName("Bob");
-	        myPigs[1].setWeight(13);
+	        myPigs[0].setName("Craig");
+	        myPigs[0].setWeight(48);
+	        myPigs[1].setName("Jack");
+	        myPigs[1].setWeight(18);
 	        myPigs[0].Qink();
 	        }
 	    
 	    /* --------------------------------------------------------------*/
 	    
-	   
+	    public void setweight(int newWeight) {
+	    	weight = newWeight;
+	    }
+	    
+	    public String setName() {
+	    	return name;
+	    }
+	    
+	    
+	    public int getweight() {
+	    	return weight;
+	    }
+	    
 	    
 	    
 	    public void Qnik() {
-	    	if (weight > 60) { 
+	    	int pointless = 0;
+	    	
+	    	if (weight > 60) {
 				char[] BigQink = null;
 				System.out.println(BigQink);
 	    	}// end if 
